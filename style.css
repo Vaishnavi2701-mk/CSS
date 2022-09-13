@@ -58,3 +58,38 @@ ul>li{
 ul li{
     color: green;
 }
+
+/* attribute-value selector --> this value exactly*/
+
+p[class=para-text]{
+    color: orange;
+}
+
+/* attribute|= value selector --> value should be exactly like this and followed by hyphen*/
+
+p[class|=para]{
+    color: blueviolet;
+}
+
+/* attribute~= value selector --> if contain value should be specified  */
+
+p[class~=text]{
+    color: aquamarine;
+}
+
+/* start with this tag */
+
+img[src^="img/"]{
+  border: 10px solid black;
+}
+
+/* Ends with this tag */
+img[src$="img/"]{
+    border: 10px solid black;
+}
+
+/* Value should be in between */
+img[src*="img/"]{
+  border: 10px solid black;
+}
+
