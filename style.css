@@ -1,21 +1,60 @@
 body {
   background-color: wheat;
 }
-.subtitle{
+.subtitle {
+  color: red;
+}
+#contact-us {
+  color: blue;
+}
+
+.subtitleA {
+  color: brown;
+}
+
+#about-me {
+  color: blue;
+}
+
+/* pseudocode */
+
+h2:hover {
+    color: green;
+  }
+
+/*li:only-child{
+    color: cadetblue;
+}*/
+
+td:only-child{
+    color: blueviolet;
+}
+
+.link:link{
+    color: blueviolet;
+}
+.link:visited{
     color: red;
 }
-#contact-us{
+
+/* Advanced selector */
+
+/* anchor tag followed by h2 or vice verca will be red no matter if they have same parent or not */
+
+h2 + a{
+    color: red;
+}
+
+/* button tag followed by textarea but they should be in same parent */
+
+textarea ~ button{
+    color: purple;
+}
+
+ul>li{
     color: blue;
 }
 
-h2{
+ul li{
     color: green;
-}
-
-.subtitleA{
-    color: brown;
-}
-
-#about-me{
-    color: blue;
 }
