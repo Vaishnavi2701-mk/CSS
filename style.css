@@ -1,20 +1,13 @@
 body {
-  background-color: wheat;
-}
-.subtitle {
-  color: red;
+  background: rgb(240, 203, 139);
 }
 #contact-us {
   color: blue;
 }
 
-.subtitleA {
-  color: brown;
-}
-
-#about-me {
+/*#about-me {
   color: blue;
-}
+}*/
 
 /* pseudocode */
 
@@ -93,3 +86,20 @@ img[src*="img/"]{
   border: 10px solid black;
 }
 
+#title{
+  color: rgb(8, 6, 140);
+  background: #67c1f5;
+}
+
+.subtitle{
+  color: rgb(79, 77, 240);
+  background: #67c1f5;
+}
+
+#service-image{
+  height: 300px;
+  width: 50%;
+  background: url(../img/img-2.jpeg);
+  background-color: steelblue;
+  background-size: cover;
+}
