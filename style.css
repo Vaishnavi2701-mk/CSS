@@ -1,6 +1,16 @@
 body {
   background: rgb(240, 203, 139);
+  /*font-size: 2rem;*/
+  text-transform: capitalize;
+  text-align: justify;
+  font-weight: 500;
+  font-family: 'Merriweather Sans', sans-serif;
 }
+
+span{
+  font-style: italic;
+}
+
 #contact-us {
   color: blue;
 }
@@ -25,6 +35,7 @@ td:only-child{
 
 .link:link{
     color: blueviolet;
+    text-decoration: underline;
 }
 .link:visited{
     color: red;
@@ -77,11 +88,13 @@ img[src^="img/"]{
 }
 
 /* Ends with this tag */
+
 img[src$="img/"]{
     border: 10px solid black;
 }
 
 /* Value should be in between */
+
 img[src*="img/"]{
   border: 10px solid black;
 }
@@ -99,7 +112,18 @@ img[src*="img/"]{
 #service-image{
   height: 300px;
   width: 50%;
-  background: url(../img/img-2.jpeg);
+  /*background: url(../img/img-2.jpeg);
   background-color: steelblue;
-  background-size: cover;
+  background-size: cover;*/
+
+  /*background: linear-gradient(to right, red, green, blue);*/
+/*  background: linear-gradient(to right, rgb(43, 109, 207) , rgba(43, 109, 207,0))*/
+/*background: linear-gradient(to bottom left, rgb(43, 109, 207) , rgba(43, 109, 207,0))*/
+
+background: radial-gradient(circle, red 20%, green 50%,blue 60%)
+
+
+
 }
+
+
